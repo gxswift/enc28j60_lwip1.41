@@ -1,0 +1,11 @@
+.\objects\inet.o: ..\lwip\src\core\ipv4\inet.c
+.\objects\inet.o: ..\lwip\src\include\lwip/opt.h
+.\objects\inet.o: ..\lwip\system\arch\lwipopts.h
+.\objects\inet.o: ..\lwip\src\include\lwip/debug.h
+.\objects\inet.o: ..\lwip\src\include\lwip/arch.h
+.\objects\inet.o: ..\lwip\system\arch/cc.h
+.\objects\inet.o: ..\lwip\system\arch/cpu.h
+.\objects\inet.o: ..\lwip\src\include\lwip/opt.h
+.\objects\inet.o: ..\lwip\src\include\ipv4\lwip/inet.h
+.\objects\inet.o: ..\lwip\src\include\lwip/def.h
+.\objects\inet.o: ..\lwip\src\include\ipv4\lwip/ip_addr.h

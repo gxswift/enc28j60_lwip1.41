@@ -1,0 +1,16 @@
+.\objects\mem.o: ..\lwip\src\core\mem.c
+.\objects\mem.o: ..\lwip\src\include\lwip/opt.h
+.\objects\mem.o: ..\lwip\system\arch\lwipopts.h
+.\objects\mem.o: ..\lwip\src\include\lwip/debug.h
+.\objects\mem.o: ..\lwip\src\include\lwip/arch.h
+.\objects\mem.o: ..\lwip\system\arch/cc.h
+.\objects\mem.o: ..\lwip\system\arch/cpu.h
+.\objects\mem.o: ..\lwip\src\include\lwip/opt.h
+.\objects\mem.o: ..\lwip\src\include\lwip/def.h
+.\objects\mem.o: ..\lwip\src\include\lwip/mem.h
+.\objects\mem.o: ..\lwip\src\include\lwip/sys.h
+.\objects\mem.o: ..\lwip\src\include\lwip/stats.h
+.\objects\mem.o: ..\lwip\src\include\lwip/memp.h
+.\objects\mem.o: ..\lwip\src\include\lwip/memp_std.h
+.\objects\mem.o: ..\lwip\src\include\lwip/err.h
+.\objects\mem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

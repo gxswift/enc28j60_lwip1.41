@@ -1,0 +1,9 @@
+.\objects\sys.o: ..\lwip\src\core\sys.c
+.\objects\sys.o: ..\lwip\src\include\lwip/opt.h
+.\objects\sys.o: ..\lwip\system\arch\lwipopts.h
+.\objects\sys.o: ..\lwip\src\include\lwip/debug.h
+.\objects\sys.o: ..\lwip\src\include\lwip/arch.h
+.\objects\sys.o: ..\lwip\system\arch/cc.h
+.\objects\sys.o: ..\lwip\system\arch/cpu.h
+.\objects\sys.o: ..\lwip\src\include\lwip/opt.h
+.\objects\sys.o: ..\lwip\src\include\lwip/sys.h

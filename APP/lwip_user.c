@@ -50,7 +50,7 @@ void lwip_ip_config(IP_Config *lwipx)
 	lwipx->IP[0]=192;	
 	lwipx->IP[1]=168;
 	lwipx->IP[2]=1;
-	lwipx->IP[3]=130;
+	lwipx->IP[3]=16;
 	//默认子网掩码:255.255.255.0
 	lwipx->Mask[0]=255;	
 	lwipx->Mask[1]=255;
@@ -77,6 +77,7 @@ u8 lwip_config_init(void)
 	struct ip_addr netmask; 			//子网掩码
 	struct ip_addr gw;      			//默认网关 
 	mem_init();
+	memp_init();
 	if(ENC28J60_Init((u8*)Mac))return 1;		//初始化ENC28J60
 	lwip_init();						//初始化LWIP内核
 	lwip_ip_config(&lwipdev);	//设置默认IP等信息

@@ -6,13 +6,11 @@
 #include "delay.h"
 
 
-
-
 extern LED Led;
 u32 lwip_localtime;	
 u8 temp;
  int main(void)
- {	
+ {	u32 t = 0;
 	 delay_init();	 
 	 LED_Init();
 	 TIM3_Int_Init(1000,71);
@@ -26,14 +24,17 @@ u8 temp;
 	while(1)
 	{	
 		lwip_periodic_handle();	//LWIP内核需要定时处理的函数
-		if(lwip_localtime>1000)
+	/*	t++;
+		if(t == 500000)
 		{
-
-			lwip_localtime = 0;
+			t = 0;
 			Led.L1 ^= 1;
+
 			Led.L2 ^= 1;
+	
 			Led_Fun(Led);
-		}
+		}*/
+
 	}
  }
 

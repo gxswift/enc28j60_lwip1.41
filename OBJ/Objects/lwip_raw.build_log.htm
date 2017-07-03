@@ -17,7 +17,7 @@ Library Manager: ArmAr.exe V5.05 update 1 (build 106)
 Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
 CPU DLL:         SARMCM3.DLL V5.14.0.0
 Dialog DLL:      DCM.DLL V1.13.1.0
-Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
 Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
@@ -26,7 +26,14 @@ Project File Date:  06/18/2017
 
 <h2>Output:</h2>
 Build target 'Target 1'
-".\Objects\lwip_raw.axf" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+..\USER\main.c(13): warning:  #177-D: variable "t" was declared but never referenced
+   {    u32 t = 0;
+..\USER\main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=28380 RO-data=596 RW-data=224 ZI-data=49504  
+FromELF: creating hex file...
+".\Objects\lwip_raw.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   D:\practise\Á·Ï°\LWIP1.41RAW\OBJ\RTE

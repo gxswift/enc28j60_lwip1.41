@@ -59,7 +59,7 @@
 #define TCP_WND                     (4 * TCP_MSS)
 #define TCP_SND_BUF                 (8 * TCP_MSS)
 
-
+//#define CHECKSUM_GEN_ICMP                    0
 /* Minimal changes to opt.h required for etharp unit tests: */
 #define ETHARP_SUPPORT_STATIC_ENTRIES   1
 

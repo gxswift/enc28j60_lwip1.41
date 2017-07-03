@@ -20,6 +20,7 @@
 .\objects\ethernetif.o: ..\lwip\src\include\ipv4\lwip/ip.h
 .\objects\ethernetif.o: ..\lwip\src\include\netif/ppp_oe.h
 .\objects\ethernetif.o: ..\lwip\system\noOS\ethernetif.h
+.\objects\ethernetif.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ethernetif.o: ..\BSP\enc28j60.h
 .\objects\ethernetif.o: ..\USER\stm32f10x.h
 .\objects\ethernetif.o: ..\CORE\core_cm3.h

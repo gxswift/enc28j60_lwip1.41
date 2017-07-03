@@ -61,6 +61,7 @@
 #define IFNAME1 'n'
 #include "ethernetif.h"
 
+#include "string.h"
 #include "enc28j60.h"
 #include "stdlib.h"
 extern u8 Mac[6];

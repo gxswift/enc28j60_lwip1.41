@@ -116,7 +116,7 @@ void lwip_pkt_handle(void)
 //LWIPÂÖÑ¯ÈÎÎñ
 void lwip_periodic_handle(void)
 {
-	if(lwip_localtime - InputTimer >5)
+	if(lwip_localtime - InputTimer >2)
 	{
 		InputTimer =  lwip_localtime;
 		ethernetif_input(&lwip_netif );

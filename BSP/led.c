@@ -22,14 +22,14 @@ void LED_Init(void)
 
  LED Led;
 
-void Led_Fun(LED led)
+void Led_Fun(LED *led)
 {
-	if(led.L1)
+	if(led->L1)
 		GPIO_ResetBits(GPIOB,GPIO_Pin_5);		
 	else 
 		GPIO_SetBits(GPIOB,GPIO_Pin_5);
 	
-	if(led.L2)
+	if(led->L2)
 		GPIO_ResetBits(GPIOE,GPIO_Pin_5);
 	else
 		GPIO_SetBits(GPIOE,GPIO_Pin_5);

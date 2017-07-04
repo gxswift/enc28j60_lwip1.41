@@ -24,16 +24,16 @@ u8 temp;
 	while(1)
 	{	
 		lwip_periodic_handle();	//LWIP内核需要定时处理的函数
-	/*	t++;
-		if(t == 500000)
-		{
-			t = 0;
-			Led.L1 ^= 1;
+//		t++;
+//		if(t == 500000)
+//		{
+//			t = 0;
+//			Led.L1 ^= 1;
 
-			Led.L2 ^= 1;
-	
-			Led_Fun(Led);
-		}*/
+//			Led.L2 ^= 1;
+//	
+//			Led_Fun(&Led);
+//		}
 
 	}
  }

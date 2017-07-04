@@ -10,6 +10,6 @@ typedef struct
 	
 	
 void LED_Init(void);//≥ı ºªØ
-void Led_Fun(LED led);
+void Led_Fun(LED *led);
 		 				    
 #endif

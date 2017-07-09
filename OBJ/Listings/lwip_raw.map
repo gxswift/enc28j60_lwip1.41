@@ -2389,46 +2389,46 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
          0          0          0          0          0         32   core_cm3.o
-        62          0          0          0          0       2536   def.o
-       144         22          0          4          0       1048   delay.o
-      1120         84          0         20       1635      19557   dns.o
-      1364         56          0          8          0       7776   enc28j60.o
-      2476         78         12          1        200      12065   etharp.o
-       438         32          0          0       3000       3926   ethernetif.o
-       676         18          0          0          0       3354   icmp.o
-         0          0          0          0          0       3780   inet.o
-       362          0          0          0          0       3206   inet_chksum.o
-        36          0          0          0          0      12572   init.o
-      1048         50          0         18          0       6909   ip.o
-       450          6          8          0          0       8486   ip_addr.o
-      1808         54          0          6          0       9456   ip_frag.o
-        76          8          0          0          0        447   led.o
-       408         54          0         18         68       3108   lwip_user.o
-        40          4          0          5          0     245813   main.o
-      1100         86          0         12      16020       4641   mem.o
-       388         38         40          0      27259       3626   memp.o
-       152         12          0          0          0       1450   misc.o
-       360         24          0          9          0       6666   netif.o
-      1362          4          0          1          0      10329   pbuf.o
-       116         14          0          4          0       1356   raw.o
-       124         10          0          0          0       1057   spi.o
-        36          8        304          0       1024        764   startup_stm32f10x_hd.o
-         2          0          0          0        278       3514   stats.o
-       286          0          0          0          0       2900   stm32f10x_gpio.o
-        26          0          0          0          0       3586   stm32f10x_it.o
-        64         12          0          0          0       1082   stm32f10x_rcc.o
-       112          0          0          0          0       3626   stm32f10x_spi.o
-       246         42          0          0          0       3350   stm32f10x_tim.o
-       328         28          0         20          0       2017   system_stm32f10x.o
-      2758        148        197         36          0      23380   tcp.o
-      6116        336          0         32         16      17163   tcp_in.o
-      2242         34          0          0          0      10091   tcp_out.o
-       140         16          0          0          0       1010   timer.o
-       416         72          0         12          0       3669   timers.o
-      1264         46          0          8          0       8293   udp.o
+        62          0          0          0          0       2572   def.o
+       144         22          0          4          0       1068   delay.o
+      1120         84          0         20       1635      19677   dns.o
+      1364         56          0          8          0       7856   enc28j60.o
+      2476         78         12          1        200      12161   etharp.o
+       438         32          0          0       3000       3970   ethernetif.o
+       676         18          0          0          0       3378   icmp.o
+         0          0          0          0          0       3784   inet.o
+       362          0          0          0          0       3238   inet_chksum.o
+        36          0          0          0          0      12600   init.o
+      1048         50          0         18          0       6949   ip.o
+       450          6          8          0          0       8526   ip_addr.o
+      1808         54          0          6          0       9532   ip_frag.o
+        76          8          0          0          0        455   led.o
+       408         54          0         18         68       3140   lwip_user.o
+        40          4          0          5          0     245857   main.o
+      1100         86          0         12      16020       4685   mem.o
+       388         38         40          0      27259       3662   memp.o
+       152         12          0          0          0       1466   misc.o
+       360         24          0          9          0       6726   netif.o
+      1362          4          0          1          0      10417   pbuf.o
+       116         14          0          4          0       1372   raw.o
+       124         10          0          0          0       1069   spi.o
+        36          8        304          0       1024        772   startup_stm32f10x_hd.o
+         2          0          0          0        278       3534   stats.o
+       286          0          0          0          0       2924   stm32f10x_gpio.o
+        26          0          0          0          0       3638   stm32f10x_it.o
+        64         12          0          0          0       1090   stm32f10x_rcc.o
+       112          0          0          0          0       3662   stm32f10x_spi.o
+       246         42          0          0          0       3390   stm32f10x_tim.o
+       328         28          0         20          0       2037   system_stm32f10x.o
+      2758        148        197         36          0      23520   tcp.o
+      6116        336          0         32         16      17239   tcp_in.o
+      2242         34          0          0          0      10183   tcp_out.o
+       140         16          0          0          0       1018   timer.o
+       416         72          0         12          0       3713   timers.o
+      1264         46          0          8          0       8365   udp.o
 
     ----------------------------------------------------------------------
-     28192       1396        596        224      49504     457641   Object Totals
+     28192       1396        596        224      49504     459277   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         46          0          3         10          4          0   (incl. Padding)
 
@@ -2470,8 +2470,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     28380       1412        596        224      49504     447925   Grand Totals
-     28380       1412        596        224      49504     447925   ELF Image Totals
+     28380       1412        596        224      49504     449561   Grand Totals
+     28380       1412        596        224      49504     449561   ELF Image Totals
      28380       1412        596        224          0          0   ROM Totals
 
 ==============================================================================

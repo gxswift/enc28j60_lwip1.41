@@ -20,7 +20,8 @@ void LED_Init(void)
  GPIO_SetBits(GPIOE,GPIO_Pin_5); 						 //PE.5 Êä³ö¸ß 
 }
 
- LED Led;
+
+LED Led;
 
 void Led_Fun(LED *led)
 {
